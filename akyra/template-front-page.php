@@ -5,23 +5,9 @@ Design Theme's Front Page to Display the Home Page if Selected
 
 */
 get_header(); ?>
-<?php
-$type = 'carousel';
-$args=array(
-'post_type' => $type,
-'post_status' => 'publish',
-);
-$my_query = new WP_Query($args);
-if( $my_query->have_posts() ) {
-while ($my_query->have_posts()) : $my_query->the_post(); ?>
-<div class="carousel-border">
-  <?php the_content(); ?>
-</div>
-<?php
-endwhile;
-}
-wp_reset_query();  // Restore global post data stomped by the_post().
-?>
+<section class="full-screen">
+  <div class="carousel-img background-position" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/homelodge.jpg';?>')"></div> 
+</section>
 <section class="explore">
   <div class="section-bg">
     <div class="row margin-rl-zero">
@@ -33,43 +19,52 @@ wp_reset_query();  // Restore global post data stomped by the_post().
       </div>
       <div class="col-md-12 col-xs-12">
         <div class="col-md-5 col-md-offset-1 col-xs-12">
-          <div class="col-md-12 fishing-box">
+          <div class="col-md-12 pd-zero"><a href="fishing"><img class="fishing-bg"src='<?php echo get_template_directory_uri(); echo '/img/fishing.png';?>'></a>
             <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="fishing">FISHING</a></span></div>
           </div>
         </div>
         <div class="col-md-5 col-xs-12">
-          <div class="col-md-12 hatchery-box">
-            <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="salmon-hatchery">HATCHERY</a></span></div>
+          <div class="col-md-12 pd-zero"><a href="salmon-hatchery"><img class="fishing-bg"src='<?php echo get_template_directory_uri(); echo '/img/hatchery.png';?>'></a>
+            <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="salmon-hatchery">SALMON HATCHERY</a></span></div>
           </div>
         </div>
       </div>
-      <div class="col-md-12 col-xs-12">
-        <div class="col-md-2 col-md-offset-1 col-xs-12">
-          <div class="activity-thumb" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/whale.png';?>');">
-            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style" href="activities-2/#whale">WHALE WATCHING</a></span></div>
+      <div class='container'>
+      <div class="col-md-11 col-md-offset-1">
+      <div class="col-md-2 col-xs-12 pd-zero">
+        <div class="col-md-11 col-md-offset-1 col-xs-12 pd-zero">
+          <div class="col-md-12 pd-zero"><a href="activities-2/#whale"><img class="thumb-img" src='<?php echo get_template_directory_uri(); echo '/img/jumpwhale.jpg';?>'><a></div>
+            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style mini-thumb-text" href="activities-2/#whale">WHALE WATCHING</a></span></div>
           </div>
         </div>
-        <div class="col-md-2 col-xs-12">
-          <div class="activity-thumb" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/bird.png';?>');">
-            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style" href="activities-2/#bird">BIRD WATCHING</a></span></div>
+        <div class="col-md-2 col-xs-12 pd-zero">
+          <div class="col-md-11 col-md-offset-1 col-xs-12 pd-zero">
+            <div class="col-md-12 pd-zero"><a href="activities-2/#bird"><img class="thumb-img" src='<?php echo get_template_directory_uri(); echo '/img/eagle.jpg';?>'><a></div>
+            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style mini-thumb-text" href="activities-2/#bird">BIRD WATCHING</a></span></div>
           </div>
         </div>
-        <div class="col-md-2 col-xs-12">
-          <div class="activity-thumb" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/bear.png';?>');">
-            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style" href="activities-2/#bear">BEAR WATCHING</a></span></div>
+        <div class="col-md-2 col-xs-12 pd-zero">
+          <div class="col-md-11 col-md-offset-1 col-xs-12 pd-zero">
+          <div class="col-md-12 pd-zero"><a href="activities-2/#bear"><img class="thumb-img" src='<?php echo get_template_directory_uri(); echo '/img/onebear.jpg';?>'><a></div>
+            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style mini-thumb-text" href="activities-2/#bear">BEAR WATCHING</a></span></div>
           </div>
         </div>
-        <div class="col-md-2 col-xs-12">
-          <div class="activity-thumb" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/kayak.png';?>');">
-            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style" href="activities-2/#kayak">KAYAK &amp; CANOE</a></span></div>
+        <div class="col-md-2 col-xs-12 pd-zero">
+         <div class="col-md-11 col-md-offset-1 col-xs-12 pd-zero">
+          <div class="col-md-12 pd-zero"><a href="activities-2/#kayak"><img class="thumb-img" src='<?php echo get_template_directory_uri(); echo '/img/kaya1.jpg';?>'><a></div>
+            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style mini-thumb-text" href="activities-2/#kayak">KAYAK &amp; CANOE</a></span></div>
           </div>
         </div>
-        <div class="col-md-2 col-xs-12">
-          <div class="activity-thumb" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/dine.png';?>');">
-            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style" href="dining/#dining">WINE &amp; DINE</a></span></div>
+        <div class="col-md-2 col-xs-12 pd-zero">
+         <div class="col-md-11 col-md-offset-1 col-xs-12 pd-zero">
+          <div class="col-md-12 pd-zero"><a href="dining/#dining"><img class="thumb-img" src='<?php echo get_template_directory_uri(); echo '/img/food2.jpg';?>'><a></div>
+            <div class="mini-activities-headlines"><span class="mini-thumb-text"><a class="anchor-style mini-thumb-text" href="dining/#dining">WINE &amp; DINE</a></span></div>
           </div>
         </div>
-        <div class="col-md-1 col-xs-1"></div>
+        
+        </div>
+        </div>
+
       </div>
       <div class="col-xs-12 col-no-margin">
         <div class="col-xs-12 text-center"><span class="fishing-days-title">DAYS UNTIL FISHING SEASON</span></div>
@@ -114,10 +109,10 @@ wp_reset_query();  // Restore global post data stomped by the_post().
         <div class="col-md-6 col-md-offset-3 testimonial-pictures"><img src="<?php echo get_template_directory_uri(); echo '/img/mikeparr.png';?>"></div>
         <div class="col-md-12 testimonial-box">
           
-          <div class="col-md-12 col-no-margin">"The 5th consecutive year at the Duncanby leaves me groping
+          <div class="col-md-12 col-no-margin">"The 5th consecutive year at Duncanby leaves me groping
             for a new way to express my thanks. The trip was
-            fantastic--and each year has been better than the ones before... No change in attitude or the level of customer
-            service. A seperate page could easily be written on the dining-- but the short version is that it's as great as ever.""
+            fantastic--and each year has been better than the ones before.. No change in attitude or the level of customer
+            service. A seperate page could easily be written on the dining but the short version is that it's as great as ever.""
           </div>
           <div class="col-md-12 testimonial-signature"> Mike Parr</div>
         </div>
@@ -125,7 +120,7 @@ wp_reset_query();  // Restore global post data stomped by the_post().
       <div class="col-md-4">
         <div class="col-md-6 col-md-offset-3 testimonial-pictures"><img src="<?php echo get_template_directory_uri(); echo '/img/FES.png';?>"></div>
         <div class="col-md-12 testimonial-box">
-          <div class="col-md-12 col-no-margin">"A 5 star rating s usually something that attests to the
+          <div class="col-md-12 col-no-margin">"A 5 star rating is usually something that attests to the
             highest standards. Duncanby should be in the dictionary
             under the 5 star definition. If I can scape some more shekels together, I WILL be back for a visit. You've made
             me a little more complete, and I thank you for that All the best to your family and crew.""
@@ -155,15 +150,20 @@ wp_reset_query();  // Restore global post data stomped by the_post().
             </div>
           </div>
           <div class="col-md-12 col-no-margin">
-            <div class="col-md-6">
-              <div class="fund" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/fundr.png';?>');">
+            <div class="col-md-4">
+              <div class="fund"><a class="anchor-fund" href="this-week-2/#fundraiser"><img class="anchor-fund" src='<?php echo get_template_directory_uri(); echo '/img/fundr.png';?>'></a>
                 <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="this-week-2/#fundraiser">JIM HUGHSON &amp; KIDSPORT</a></span></div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="fund" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/fund2.png';?>');">
-                <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="this-week-2/#fundraiser">RICK HANSON FOUNDATION</a></span></div>
+            <div class="col-md-4">
+              <div class="fund"><a class="anchor-fund" href="this-week-2/#fundraiser"><img class="anchor-fund" src='<?php echo get_template_directory_uri(); echo '/img/fund2.png';?>'></a>
+                <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="this-week-2/#fundraiser">RICK HANSEN FOUNDATION</a></span></div>
               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="fund"><a class="anchor-fund" href="this-week-2/#fundraiser"><img class="anchor-fund" src='<?php echo get_template_directory_uri(); echo '/img/rsz_logo.png';?>'></a>
+                <div class="activities-headlines"><span class="thumb-text"><a class="anchor-style" href="this-week-2/#fundraiser">PACIFIC SALMON FOUNDATION</a></span></div>
+            </div>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@ wp_reset_query();  // Restore global post data stomped by the_post().
               </div>
               <div class="col-md-12">
                 <div class="videowrapper">
-                  <iframe width="420" height="315" src="https://www.youtube.com/embed/nF0msuqpshg" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Kk8uf-6KOPY" frameborder="0" allowfullscreen></iframe>
                 </div>
               </div>
               <div class="col-md-12">
@@ -216,11 +216,10 @@ wp_reset_query();  // Restore global post data stomped by the_post().
             </div>
             <div class="col-md-4">
               <div class="col-xs-12 about-title">
-                <i class="fa fa-times-circle"></i>  WHERE WE ARE
+                <i class="fa fa-map-marker"></i>  WHERE WE ARE
               </div>
               <div class="col-md-12 col-no-margin question-text"> Rivers Inlet, BC </div>
-              <div class="col-md-12  question-text">GPS:XXX:XXX:XXX</div>
-              <div class="col-md-12 col-no-margin question-text">How do I get there</div>
+              <div class="col-md-12  question-text">GPS:51°24'16.63"N 127°38'43.69”W</div>
               <div class="col-md-12 about-title">
                 <i class="fa fa-search"></i>  FISHING LICENSE
               </div>
@@ -239,7 +238,23 @@ wp_reset_query();  // Restore global post data stomped by the_post().
       <div class="col-xs-12 col-no-margin"><span class="second-footer-title-2">Rivers Inlet, BC VON 1MO</span></div>
     </div>
     <div class="col-xs-6">
-      <div class="col-xs-12 col-no-margin second-footer-images" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/map.png';?>')"></div>
+      <?php
+          $type = 'goodle_map';
+          $args=array(
+          'post_type' => $type,
+          'post_status' => 'publish',
+          );
+          $my_query = new WP_Query($args);
+          if( $my_query->have_posts() ) {
+          while ($my_query->have_posts()) : $my_query->the_post(); ?>
+          <span class="about-text" >
+            <?php the_content(); ?>
+          </span>
+          <?php
+          endwhile;
+          }
+          wp_reset_query();  // Restore global post data stomped by the_post().
+          ?>
     </div>
     <div class="col-xs-6">
       <div class="col-xs-12 col-no-margin second-footer-images" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/view.png';?>')"></div>

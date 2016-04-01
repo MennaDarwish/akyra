@@ -13,21 +13,20 @@
           		<li><a href="wordpress/About">About</a></li>	
           		<li><a href="wordpress/activities">Activities</a></li>
           		<li><a href="wordpress/booking">Rates &amp; Booking</a>
-          		<li><a href="wordpress/gallery">Careers</a>
+          		<li><a href="wordpress/gallery">Gallery</a>
           	</ul>
             </div>
 					<div class="col-md-5 col-xs-6">
 							<ul class="footer-account-info">
 									<li><span class="footer-touch">Get in touch</span></li>
-									<li><span><i class="white-icon fa fa-facebook-square"></i>&nbsp;&nbsp;facebook/duncanbylodge</span></li>
-									<li><span><i class="white-icon fa fa-phone"></i>&nbsp;&nbsp;&nbsp;+1 877-846-6548</span></li>
-									<li><span><i class="white-icon fa fa-envelope-o"></i> &nbsp;&nbsp;admin@duncanby.com</span></li>
+									<li><span><i class="white-icon fa fa-facebook-square"></i>&nbsp;&nbsp;<a class="white-icon anchor-style" href="https://www.facebook.com/Duncanby-Lodge-323542898711/?fref=ts">facebook/duncanbylodge</a></span></li>
+									<li><span><i class="white-icon fa fa-phone"></i>&nbsp;&nbsp;&nbsp;<a class="anchor-style" href="tel:+1.877.846.6548">+1 877-846-6548</a></span></li>
+									<li><span><i class="white-icon fa fa-envelope-o"></i> &nbsp;&nbsp;<a class="anchor-style" href="mailto:admin@duncanby.com">admin@duncanby.com</a></span></li>
 							</ul>
 					</div>
 
 					<div class="col-md-2 col-xs-12">
-						<span class="footer-account-info">copyright 2016<span><br>
-						<span>duncanby.com<span>
+						<span class="footer-account-info">© Copyright 2016 Duncanby Lodge, Inc. All Rights Reserved.<span>
 
 					</div>
           </div>

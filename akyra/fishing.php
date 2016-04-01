@@ -61,7 +61,7 @@ get_header(); ?>
 					service for whatever you would like to do with your day on the ocean. Although most guests utilize
 					their guide’s extensive knowledge in pursuit of trophy Chinook and halibut, a variety of other
 					options are available. Your guides can take you fly fishing the open ocean for Coho salmon,
-					rockfish or ling cod. They can also take you bear watching abd whale watching. Whatever your
+					rockfish or ling cod. They can also take you bear watching and whale watching. Whatever your
 					choice, your guide will provide you with an experience of a lifetime.
 				</p>
 			</div>
@@ -99,7 +99,7 @@ get_header(); ?>
 					fresh towels, net, gaff, and lodge map.
 				</p>
 			</div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); echo '/img/boat1.png';?>"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); echo '/img/sailboats.jpg';?>"></div>
 			<div class='col-md-1'></div>
 		</div>
 	</div>
@@ -119,7 +119,7 @@ get_header(); ?>
 			<div class="col-md-7 col-xs-12">
 				<p class="about-text">
 					Our dock staff are trained extensively on the proper handling of your catch. Your fish are cleaned
-					on a stainless steel table with continuous running, pumped sea water
+					on a stainless steel table with continuous running, pumped water
 					<br><br>
 					Then, depending on your preference, the fish are filleted or left whole. Once the fish are
 					processed and tagged with your name, they are sent to the vacuum packer for commercial grade vacuum
@@ -165,7 +165,7 @@ get_header(); ?>
 				</p>
 			</div>
 
-			<div class="col-md-3"><div class="videowrapper"><iframe width="420" height="315" src="https://www.youtube.com/embed/doX91XSjoLw" frameborder="0" allowfullscreen></iframe></div></div>
+			<div class="col-md-3"><div class="videowrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/fQNa5qPX8DU" frameborder="0" allowfullscreen></iframe></div></div>
 			<div class='col-md-1'></div>
 		</div>
 	</div>
@@ -192,7 +192,7 @@ get_header(); ?>
 							it will be to a large Chinook. We use free weights ranging from 2­8 oz., however cutplug bait can
 							also be trolled off a downrigger to achieve greater depths. We also provide you with 10’6’’ medium
 							light weight mooching rods and Diawa M1 or Shimano GT2000 mooching reels that hold well over
-							300 yards of 25­30lb test monofilament..
+							300 yards of 25­-30 lbs test monofilament..
 							and yes...we still get spooled!
 						</p>
 					</div>
@@ -207,7 +207,7 @@ get_header(); ?>
 							which you troll. In short, you can cover more ground to find fish. We use all varieties of gear:
 							spoons, plugs, apex, hoochies, flashers and even teaser heads for anchovies and herring.
 							This gear is primarily trolled off our Scotty
-							downriggers at depths from 20­120ft. We use the same 10’6’’ mooching rod and reel combos for
+							downriggers at depths from 20­-120ft. We use the same 10’6’’ mooching rod and reel combos for
 							trolling. We do not stock tackle boxes with every colour of every lure. We do have a tackle shop
 							with a limited supply of gear to lend out upon request. If you are a die­hard gear fisherman we
 							encourage you to bring some of your favourite lures from home.
@@ -227,7 +227,7 @@ get_header(); ?>
 							We stock Gibbs Minnow Jigs for rockfish, Gibbs Floor Walker Jigs for lingcod, and a variety of
 							large halibut jigs such as the Muddraker. For rockfish and lingcod we use spin casts and
 							mooching rods. Halibut rods are also provided. These ultra heavy rods are equipped with level
-							wind reels that are loaded with 80­100lb test.
+							wind reels that are loaded with 80­-100 lbs test.
 							</p>
 					</div>
 				</div>
@@ -239,13 +239,13 @@ get_header(); ?>
 					<div class="col-md-12 col-xs-12">
 						<p class="about-text">
 						If trout or bass fishing is your hobby, don’t forget to bring your favourite rod and reel combo. We
-						would suggest having your reel re­spooled with a minimum of 10 lb. test. We stock our trout
-						combos with 12­20 lb, no­stretch spider, and tough­line. New line technology allows these lines to
+						would suggest having your reel re­spooled with a minimum of 10 lbs. test. We stock our trout
+						combos with 12­-20 lbs, no­stretch spider, and tough­line. New line technology allows these lines to
 						have the diameter of 4 lb­10lb monofilament, making it manageable to load 300 ft. of line on your
 						lightweight combo. We use spin casts for a variety of species.
 						<br><br>
 						Rockfish/Cod: These fish can be caught on just about anything: Spoons, spinners, jigs, and bait
-						just to name a few. Rockfish average 3­7lbs and lingcod can range between 5­30 lbs.
+						just to name a few. Rockfish average 3­-7 lbs and lingcod can range between 5-­30 lbs.
 						Coho: Used in late August and early September to target Coho’s in river estuaries and intertidal
 						pools. Number 4 and 5 Blue Fox Spinners in silver, blue and chartreuse, are our most productive
 						lures. Weighted spoons such as the Gibbs Croc and Kitimat Killer have also been successful in
@@ -253,42 +253,13 @@ get_header(); ?>
 					</p>
 					</div>
 				</div>
-				<div class="col-md-8 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="col-md-12 col-xs-12">
 						<span class="about-title">FLY FISHING</span>
 					</div>
 					<div class="col-md-12 col-xs-12">
 						<p class="about-text">
-						If trout or bass fishing is your hobby, don’t forget to bring your favourite rod and reel combo. We
-						would suggest having your reel re­spooled with a minimum of 10 lb. test. We stock our trout
-						It’s every fly fisherman’s dream to cast into a body of water and have a variety of species compete
-						for the fly.<br><br>
-						At Duncanby, we’ve made this possible by locating the best spots, for the given time of year, to
-						capitalize on various species.<br><br>
-						Rockfish: Rockfish are caught all year round on the largest, ugliest fly you have in your box.
-						Epoxy eyes are a must on your big trimmed streamers and buck tales. Try to find a colour they
-						won’t bite. 325­grain sinking line is ideal for these species, however they will hit surface flies and
-						can be found anywhere in the water column. Rockfish are typically found close to kelp beds and
-						various rocky shorelines or substrates. A 6wt rod is good, although lingcod, which can be in
-						excess of 20lbs, will often take your fly. Here, a 8wt is ideal.<br><br>
-						Salmon: Fly fishing for salmon is done in mid to late August and takes place in various intertidal
-						zones and estuaries. Pink salmon are typically the easiest to catch as they can be very
-						aggressive while staging in estuaries. We find a 6wt rod to be the weapon of choice for this
-						species. Pinks will bite any fly that is small, sparse and pink. Flies should be around 1⁄2 to 3⁄4 inch
-						long. Our favourite fly is the Pink Comet and the small pink Woolly Bugger. Coho can also be
-						caught on fly rods in the estuaries as well. Larger Clousers in pink, green and chartreuse are the
-						main flies of choice. Minnow patterns such as sticklebacks, Mickey Finns and Rolled Muddlers are
-						also good to try. You can get away with a 6wt rod, however your 8wt will give you a better chance
-						if you hook one of our Coho that exceed the 20lb range. We also have success Buck Tailing for
-						Coho in mid to late August. A large red, green, blue or chartreuse Buck Tail with a trailer hook is
-						the most effective fly. Many anglers have success placing 2 small beads and a small spinning
-						blade in front of the Buck Tail. Mother of pearl, artificial abalone and straight silver are the
-						recommended blade colours. Lastly, we hook many large Chinook and Coho trolling with fly rods
-						in the downrigger. In order to do this you must have a very large arbour fly reel with a wide spool.
-						You will require 150 yards of backing before connecting an additional 150 yards of monofilament.
-						You can then use your fly rod as you would a moocher, trolling a herring, anchovy or spoon.
-						Fishing with this style of equipment will greatly increase your fight and test the most avid angler’s
-						skill and endurance.
+							Here at Duncanby Lodge we enjoy all types of challenges, one activity some guides and other staff challenges themselves with is fly fishing. As the guides do, you as well can bring up your own fly rod&reel and gear and cast for yourself. whether it be for Pilchards and Perch off the dock or for Chum or Coho Salmon in Pierce Bay.
 					</p>
 					</div>
 				</div>
@@ -309,18 +280,15 @@ get_header(); ?>
 			<div class="col-md-1"></div>
 			<div class="col-md-3 col-xs-12"><img src=" <?php echo get_template_directory_uri(); echo '/img/tom.png';?>"></div>
 			<div class="col-md-7 col-xs-12">
+				<div class="col-md-12"></div>
+				<div class="col-md-12"></div>
+				<div class="col-md-12"></div>
 				<p class="about-text">
-					A wise fisherman once said: “you can never have too many weapons in your arsenal...” <br><br>
-					In the vast waters of Rivers Inlet, this statement holds true. Although cut bait is without a doubt
-					the most successful method for enticing large fish, there are many days where the mere change
-					of lure can trigger a bite. When fish are not feeding, sometimes it is a certain lure action or colour
-					that will irritate them into striking. There is a seemingly endless list of factors that can contribute to
-					the success of any given lure: Temperature, weather, depth, water visibility, current, tides, target
-					species, and light conditions are just the tip of this complex iceberg.<br><br>
-					Salt Water Tackle<br>
-					The protected waters of Rivers Inlet, as well as the surrounding ocean, produce the largest fish on
-					the coast each and every season. Although mostly fished with bait, these seas are a Mecca for
-					the avid gear and fly fishermen.
+							We mostly use gear, artificial lures (spoons, hoochies, teaserheads, apex) but bait is another
+							 common technique I am referring to the last sentence;  Although mostly fished with bait, these
+							  seas are a Mecca for the avid gear and fly fishermen. Please instead say: Although mostly fished
+							   with lures and gear, these seas are a Mecca for the individuals fishing bait and the avid fly 
+							  fisherman.
 				</p>
 			</div>
 			<div class="col-md-1"></div>
@@ -338,12 +306,12 @@ get_header(); ?>
 		</div>
 		<div class="col-md-12 col-no-margin">
 			<div class="col-md-1 col-no-margin"></div>
-			<div class="col-md-7 col-no-margin">
+			<div class="col-md-5 col-no-margin">
 				<div class="col-md-12 col-no-margin"></div>
 				<p class="col-md-12 about-text">
-					At Duncanby Sport Fishing lodge, on the central coast of British Columbia, we are fortunate to
+					At Duncanby Lodge, on the central coast of British Columbia, we are fortunate to
 					have the world’s most assorted aquatic ecosystem at our dock’s edge. Our season begins in medium
-					to late June and runs until the first week of September. Our season is short, and for good reason.
+					to early mid June and runs until the first week of September. Our season is short, and for good reason.
 					At Duncanby we don’t believe in “shoulder season”. If fish are not running, we are not open. It is
 					that simple! We do however have different species that run in larger numbers throughout our
 					season.<br><br>
@@ -351,17 +319,8 @@ get_header(); ?>
 					get a run of our famous super tyee class Chinook at this time, but we also see our highest
 					numbers of migratory Chinook that could be going as far south as California to spawn. As the
 					season goes on the average size of our Chinook grow, until the first few weeks of August where
-					we see our peak run of Chinook salmon in the 40­80lb range.
-				</p>
-			</div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); echo '/img/chart.png';?>"></div>
-			<div class='col-md-1'></div>
-		</div>
-			<div class="col-md-12 col-xs-12">
-				<div class="col-md-1"></div>
-				<div class="col-md-10">
-				<p class="about-text col-md-12">
-					Silvers are considered our action fish. We are fortunate enough to have our inlet filled with “blue
+					we see our peak run of Chinook salmon in the 40­-80 lbs range.<br><br>
+					Coho are considered our action fish. We are fortunate enough to have our inlet filled with “blue
 					back” Coho (5­8lbers) from mid June to early August. By Mid July our Northern Coho begin to
 					appear and continue increasing in size and numbers until they seem to monopolize the ocean by
 					the last week of August into early September. We also see terrific returns of Pink and Chum
@@ -374,7 +333,16 @@ get_header(); ?>
 					Refer to the chart for better understanding of how our fish runs overlap.<br><br>
 				</p>
 			</div>
-			<div class="col-md-1"></div>
+			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); echo '/img/salmon_chart.jpg';?>"></div>
+			<div class='col-md-1'></div>
+		</div>
+			<!--div class="col-md-12 col-xs-12">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+				<p class="about-text col-md-12">
+				</p>
+			</div>
+			<div class="col-md-1"></div-->
 			</div>
 	</div>
 </div>

@@ -139,7 +139,7 @@ get_header(); ?>
 						</div>
 					</div>
 						<div class="col-md-4 col-xs-12">
-						<div class="col-md-12 about-title">SALMON GLAZZED WITH</div>
+						<div class="col-md-12 about-title col-no-margin">SALMON GLAZZED WITH</div>
 						<div class="col-md-12 about-title">HONEY MUSTARD</div>
 						<div class="col-md-12 about-text">
 							<span class="col-md-12 col-xs-12 col-no-margin">1⁄2 cup olive oil</span>
@@ -159,7 +159,7 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="col-md-4 col-xs-12">
-						<div class="col-md-12 about-title">BLACK HALIBUT WITH</div>
+						<div class="col-md-12 about-title col-no-margin">BLACK HALIBUT WITH</div>
 						<div class="col-md-12 about-title">MANGO SALSA</div>
 						<div class="col-md-12 about-text">
 							<span class="col-md-12 col-xs-12 col-no-margin">4 7oz halibut filets</span>
@@ -185,7 +185,7 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12">
 				<div class="col-md-4 col-xs-12">
-					<div class="col-md-12 about-title">ROASTED HALIBUT</div>
+					<div class="col-md-12 about-title col-no-margin">ROASTED HALIBUT</div>
 					<div class="col-md-12 about-title">WITH WALNUT CRUST</div>
 					<div class="col-md-12 about-text">
 						<span class="col-md-12 col-xs-12 col-no-margin">2 cups mayonnaise</span>

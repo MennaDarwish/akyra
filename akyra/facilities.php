@@ -17,31 +17,17 @@ get_header(); ?>
 		</div></div>
 			 <div class="container section-bg">
 			 		<div class="col-md-2"></div>
-			 		<div class="col-md-8"><span class="about-text" ><p>Duncanby Fishing Lodge, one of the most respected salmon end halibut sports fishing destinations in BC, is now ranked as one of best in Canada.
-			 					Located in Rivers Inlet, (GPS 51'24'16.63"N,127'.38'43.69"W), on British Columbia's breathtakinig central Coast, our guests come from all over Canada, the
-			 				  United States, and even Europe to xperience the Duncanby difference.<br>
+			 		<div class="col-md-8"><span class="about-text" ><p>Located in the rugged wilderness of the central coast of BC, Duncanby Lodge has all the comforts and conveniences you'd expect to find at a five
+			 		star resort, while surrounded by the natural beauty of River Inlet. We believe we have the best accommodations and finest cuisine of any fishing lodge in BC and take prode in our outstanding level of service.<br>
 			 					<br>
-								Located in Rivers Inlet, Duncanby Lodge's is the premier destination for the West Coast Angler looking for trophy chinook salmon. With guide fleet of 12
-								Grady White boats ranging from 22-28 feet and non-guided fleet of Boston Whalers, Duncanby is sure to impress both the enthusiiast and die hard
-								fisherman alike.<br>
+								Every year, during the off-season, we continue to make improvements to our fishing lodge through the renovation and building of new cabins and docks, and upgrades to our main lodge and environmentally friendly waste management system.
+								We've even installed a new hydro system, taking advantage of renewable energy.
 								<br>
-								In addition to lodge operations, the Duncanby Team also value the time to marvel at a spectacular landscape which includes 28 miles(40km) miles of
-								ocean and mountains leading to the headwaters of the Wannock and Kibella Rivers.<br>
 								<br>
-								Rivers Inlet includes multiple inlets islands, and bays boiling with sea life, while others hold a magnificent stillness and silence. Duncanby Lodge is happy
-								to tour these surroundings whenever anglers limit out or want to take a fishing break.<br>
-								<br>
-								Some of these tours include a motor to the head of Drainy  Inlet, a place some guides call Jurassic park, or exploring serene Moses inlet to the mouth of
-								the untouched Clyak River. A new hatcherty is being built at the head of the wukinau Village and will open in Spring 2016 and will supplemet the work
-								done at the Snottli Hatchery at Bella Coola. There are pods of humpback whales, plus the falls in Waterfall Inlet. Fishing attracts anglers to Rivers Inlet,
-								but it is the surroundings that bring them back. Rivers Inlet is home to diverse recreational fishery. Fishing grounds vary from large bull kelp beds to
-								deep water open ocean to river estuaries holding mulyiple fish species. These conditions provide anglers the option to use a variety of fishing techniques:
-								mooching, trolling, jigging, spin casting, and fly fishing. Duncanby Lodge has kayaks and canoes available for bear viewing or bird watching dominated by
-								bald eagles and lions<br>
-								<br>
-								A stay at the Lodge includes all the necessary gear required. Anglers can choose to fish unguided or use the expertise of a guide. Duncanby Lodge's team
-								of seven professional guides are ready to ensure anglers maximize time to experience the Duncanby difference. 
-							<p></span>
+								Among all the salmon halibut fishing lodges in BC, Duncanby Lodge is without a doubt your best choice for an unforgettable fishing trip.<br>
+								Experience the Duncanby difference in all aspects of our operation.
+								
+							</p></span>
 					</div> 
 					<div class="col-md-2"></div>
 		</div>
@@ -58,30 +44,83 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-12">
-			<div class="col-xs-12"><img src="<?php echo get_template_directory_uri(); echo '/img/cabin.png';?>"></div>
-			<div class="col-xs-12"><img src="<?php echo get_template_directory_uri(); echo '/img/bunkbeds.png';?>"></div>
+			<div class="col-xs-12"><img id="myImg" src="<?php echo get_template_directory_uri(); echo '/img/DSC_8406.jpg';?>"></div>
+			<div id="myModal" class="modal">
+					  <!-- The Close Button -->
+					  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+					  <!-- Modal Content (The Image) -->
+					  <img class="modal-content" id="img01">
+
+					  <!-- Modal Caption (Image Text) -->
+					  <div id="caption"></div>
+			 </div>
+			<div class="col-xs-12"><img id="myImg2" src="<?php echo get_template_directory_uri(); echo '/img/DSC_8403.jpg';?>"></div>
 		</div>
 		<div class="col-md-6 col-xs-12">
 			<div class="col-xs-12 about-text text-padding">Located at the base of Mount Rivers, our cabins line a cedar-planked
-			boardwalkwith breathtaking ocean views. Listen to the waves gently crashing as you fall asleep
+			Boardwalk with breathtaking ocean views. Listen to the waves gently crashing as you fall asleep
 			dreaming of the next morning'ssport fishing or relax after a day of adventure.
 			<br><br>
-			There are a total of elevan cabins that can sleep from three to four fisherpeople comfortably.
+			There are a total of 12 cabins that can sleep from three to four fisherpeople comfortably.
 			Each cabin has a full bathroom with either a queen size bed and a set of bunks or a queen size
 			bed, a double bed and two singles. The Eagles Nest can sleep up to six guests. It has two bedrooms
 			with one set of bunk beds in each room and a loft with two single beds.
 			<br><br>
-			We have the capacity for 42 guests with custom packages available for corporations, teams and special occasions such as weddings, reunions and milestones. All of our cabins include daily housekeeping service and basic toiletries.
+			We have the capacity for 43 guests with custom packages available for corporations, teams and special occasions such as weddings, reunions and milestones. All of our cabins include daily housekeeping service and basic toiletries.
 			<br><br>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-12">
-				<div class="col-xs-12"><img src="<?php echo get_template_directory_uri(); echo '/img/2beds.png';?>"></div>
-				<div class="col-xs-12"><img src="<?php echo get_template_directory_uri(); echo '/img/whiteroom.png';?>"></div>
+				<div class="col-xs-12"><img id="myImg3" src="<?php echo get_template_directory_uri(); echo '/img/DSC_8400.jpg';?>"></div>
+				<div class="col-xs-12"><img id="myImg4" class="height-white-room" src="<?php echo get_template_directory_uri(); echo '/img/IMG_2308.JPG';?>"></div>
 		</div>
 		</div>
 		</div>
 </section>
+<script type="text/javascript">
+		var modal = document.getElementById('myModal');
 
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById('myImg');
+		var img2 = document.getElementById('myImg2');
+		var img3 = document.getElementById('myImg3');
+		var img4 = document.getElementById('myImg4');
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		    modal.style.display = "block";
+		    modalImg.src = this.src;
+		    modalImg.alt = this.alt;
+		    captionText.innerHTML = this.alt;
+		}
+		img2.onclick = function() {
+				modal.style.display = "block";
+		    modalImg.src = this.src;
+		    modalImg.alt = this.alt;
+		    captionText.innerHTML = this.alt;
+		}
+				img3.onclick = function() {
+				modal.style.display = "block";
+		    modalImg.src = this.src;
+		    modalImg.alt = this.alt;
+		    captionText.innerHTML = this.alt;
+		}	
+			img4.onclick = function() {
+			modal.style.display = "block";
+	    modalImg.src = this.src;
+	    modalImg.alt = this.alt;
+	    captionText.innerHTML = this.alt;
+		}	
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+
+</script>
 
 <?php get_footer(); ?>

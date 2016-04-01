@@ -109,7 +109,7 @@ get_header(); ?>
 					<li class="">Professional fishing instruction by our fish master and dock staff</li>
 					<li class="">Cleaning, vaccum sealing and packaging for your catch</li>
 					<li class="">Floatation and rain gear</li>
-					<li class="">Bait and cut plug equipment. Does not include lures, spoons or jigs-<br>bring these items with you or purchase them at the Lodge</li>
+					<li class="">Bait and cut plug equipment. Including lures, spoons and jigs
 					<li class="">Use of our fleet of 16' Boston Whaler's or 17'Hourston Glasscraft's</li>
 				</ul>
 			</div>
@@ -146,9 +146,14 @@ get_header(); ?>
 </section>
 <section>
 	<div class="container section-bg">
-		<div class="col-md-12">
+		<div class="col-md-4">
 			<div class="col-md-12 about-title">
 				SCHEDULE
+			</div>
+			<div class="container col-no-margin col-md-12">
+				<div class="col-md-6 col-no-margin">
+				<div class="available-box"></div><span class="rate-text">Available</span></div>
+				<div class="col-md-6 col-no-margin"><div class="booked-box"></div><span class="rate-text">Booked</span></div>
 			</div>
 			<div class="col-md-6">
 				<?php

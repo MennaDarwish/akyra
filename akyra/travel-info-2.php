@@ -5,42 +5,54 @@
 
 get_header(); ?>
 <section class="full-screen">
-	<div class="carousel-img" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/Layer 38.png';?>')"></div> 
+	   <?php
+          $type = 'goodle_map';
+          $args=array(
+          'post_type' => $type,
+          'post_status' => 'publish',
+          );
+          $my_query = new WP_Query($args);
+          if( $my_query->have_posts() ) {
+          while ($my_query->have_posts()) : $my_query->the_post(); ?>
+          <span class="about-text" >
+            <?php the_content(); ?>
+          </span>
+          <?php
+          endwhile;
+          }
+          wp_reset_query();  // Restore global post data stomped by the_post().
+          ?>
 </section>
 <section id="about">
 	<div class="section-bg decreased-padding">
 		<div class="row margin-rl-zero">
-			<div class="about-title col-md-12">
+			<div class="about-title col-md-12 map-title-below-margin">
 				<div class="strike">
 				   <span>DEPARTURE &amp; ARRIVAL</span>
 				</div>    	
 		</div></div>
 			 <div class="container section-bg decreased-padding">
 			 		<div class="col-md-2"></div>
-			 		<div class="col-md-8"><span class="about-text" ><p>Duncanby Fishing Lodge, one of the most respected salmon end halibut sports fishing destinations in BC, is now ranked as one of best in Canada.
-			 					Located in Rivers Inlet, (GPS 51'24'16.63"N,127'.38'43.69"W), on British Columbia's breathtakinig central Coast, our guests come from all over Canada, the
-			 				  United States, and even Europe to xperience the Duncanby difference.<br>
+			 		<div class="col-md-8"><span class="about-text" ><p>The Seairterminal at 4640 Inglis Drive, Richmond BC V7B 1W4, is part of Airport South which is a regional hub for small aircrafts, float planes, helicopter operations, corporate charters, sport fishing camps and aerospace facilities. You will be departing fro there on a Duncanby chartered aircraft with Seair Seaplanes. The approximate flight time
+			 		from Vancouver to Duncanby (a direct flight) is 1.5 hrs. The type of planes we are chartering is Caravan<br>
 			 					<br>
-								Located in Rivers Inlet, Duncanby Lodge's is the premier destination for the West Coast Angler looking for trophy chinook salmon. With guide fleet of 12
-								Grady White boats ranging from 22-28 feet and non-guided fleet of Boston Whalers, Duncanby is sure to impress both the enthusiiast and die hard
-								fisherman alike.<br>
+							For driving directions to the Seair terminal, or for more information, click following on the link:Seair Seaplanes website.
+							<br>
 								<br>
-								In addition to lodge operations, the Duncanby Team also value the time to marvel at a spectacular landscape which includes 28 miles(40km) miles of
-								ocean and mountains leading to the headwaters of the Wannock and Kibella Rivers.<br>
+								Check in Time 12:00 PM - Departure Time 1:00 PM
 								<br>
-								Rivers Inlet includes multiple inlets islands, and bays boiling with sea life, while others hold a magnificent stillness and silence. Duncanby Lodge is happy
-								to tour these surroundings whenever anglers limit out or want to take a fishing break.<br>
 								<br>
-								Some of these tours include a motor to the head of Drainy  Inlet, a place some guides call Jurassic park, or exploring serene Moses inlet to the mouth of
-								the untouched Clyak River. A new hatcherty is being built at the head of the wukinau Village and will open in Spring 2016 and will supplemet the work
-								done at the Snottli Hatchery at Bella Coola. There are pods of humpback whales, plus the falls in Waterfall Inlet. Fishing attracts anglers to Rivers Inlet,
-								but it is the surroundings that bring them back. Rivers Inlet is home to diverse recreational fishery. Fishing grounds vary from large bull kelp beds to
-								deep water open ocean to river estuaries holding mulyiple fish species. These conditions provide anglers the option to use a variety of fishing techniques:
-								mooching, trolling, jigging, spin casting, and fly fishing. Duncanby Lodge has kayaks and canoes available for bear viewing or bird watching dominated by
-								bald eagles and lions<br>
+								Upon your arrival, a friendly Duncanby Representative will be there to greet you and answer any last minute questions you may have. From the Seair
+								Terminal, you will depart directly to Duncanby for the 1-5 hour flight up the straight of Georgia. You will arrive at our dock at approximately 2:30 PM.
 								<br>
-								A stay at the Lodge includes all the necessary gear required. Anglers can choose to fish unguided or use the expertise of a guide. Duncanby Lodge's team
-								of seven professional guides are ready to ensure anglers maximize time to experience the Duncanby difference. 
+								<br>
+								You will depart from Duncanby on Saturday or Tuesday accordingly, at approximately 3:00 PM, retracing your route back to seair at the YVR floatplane
+								terminal in Vancouver. Your arrival time in Vancouver will be approximately 5:00 PM. We recommend that you do not book any connecting flights until at
+								least 7:30 PM that day.
+								<br>
+								<br>
+								Baggage allowance is restricted to 25lbs. to make room for your catch on the flight back to Vancouver. We recommend that you use a soft-sided duffel bag or 
+								sports bag to make loading of the aircraft quick and easy. No carry-ons, please.
 							<p></span>
 					</div> 
 					<div class="col-md-2"></div>
@@ -58,7 +70,7 @@ get_header(); ?>
 			 <div class="container section-bg decreased-padding">
 			 		<div class="col-md-2"></div>
 			 		<div class="col-md-8"><span class="about-text" ><p>We recommend the following hotels for our guests staying in Vancouver. They offer our guests preferred rate, shuttle 
-			 		service to and from the airport, and fish freezer nd storage capabilities. Be sure to mention Duncanby when making your reservations, or simply askk us to arrange your reservation for you
+			 		service to and from the airport, and fish freezer and storage capabilities. Be sure to mention Duncanby when making your reservations, or simply askk us to arrange your reservation for you
 			 		when you book your trip. 
 			 		<br>
 			 					<br>
@@ -70,7 +82,7 @@ get_header(); ?>
 						<div class="col-md-2"></div>
 						<div class="col-md-1 col-no-margin tygo"><a href="https://shop.tugo.com"><img src='<?php echo get_template_directory_uri(); echo '/img/tugo.png';?>'></a></div>
 						<div class="col-md-8">
-							<div class="tygo-text"><a class="tygo-text" href="https://shop.tugo.com">TYGO - OUR NEW TRAVEL AND MEDICAL INSURANCE PARTNER</a></div>
+							<div class="tygo-text"><a class="tygo-text" href="https://shop.tugo.com">TUGO - OUR NEW TRAVEL AND MEDICAL INSURANCE PARTNER</a></div>
 							<div class="about-text">Plans that are specifically made to fit all our guests needs for insurance while planning your trip to Duncanby.</div>
 						</div>
 					</div>
@@ -117,11 +129,12 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-12 travel-info-mini-img" style="background-image: url('<?php echo get_template_directory_uri(); echo '/img/PG.png';?>')"></div>
+							<div class="col-md-12 tygo-text">PACIFIC GATEWAY HOTEL VANCOUVER AIRPORT</div>
 							<div class="col-md-12">
-							<div class="col-md-12 tygo-text col-no-margin">3500 CESSNA DRIVE</div>
-							<div class="col-md-12 tygo-text col-no-margin">RICHMOND, BC V7B 1C7</div>
-							<div class="col-md-12 tygo-text col-no-margin">res@pacificgatewayhotel.com</div>
-							<div class="col-md-12 tygo-text">C: (604) 278-1241</div>
+							<div class="col-md-12 about-text col-no-margin">3500 CESSNA DRIVE</div>
+							<div class="col-md-12 about-text col-no-margin">RICHMOND, BC V7B 1C7</div>
+							<div class="col-md-12 about-text col-no-margin">res@pacificgatewayhotel.com</div>
+							<div class="col-md-12 about-text">C: (604) 278-1241</div>
 							<div class="col-md-12 rate-text">ROOM RATES</div>
 									<ul class="col-md-12 list-style">
 								<li class="about-text">Deluxe Room: $153.00 (single/double occupancy)</li>
@@ -218,9 +231,9 @@ get_header(); ?>
               </div>
               <div class="col-md-12">
               	<ul class="list-style travel-text col-md-12">
-              		<li>View Environment Canada Report</li>
-              		<li>View Port Hardy weather forcast</li>
-              		<li>View BUOY 46204 45 miles west from Duncanby(Goose Bay)</li>
+              		<li><a class="travel-text" href="http://weather.gc.ca/marine/forecast_e.html?mapID=02&siteID=02300">View Environment Canada Report</a></li>
+              		<li><a class="travel-text" href="http://www.theweathernetwork.com/ca/weather/british-columbia/port-hardy">View Port Hardy weather forcast</a></li>
+              		<li><a class="travel-text"  https://www.wunderground.com/wundermap/?lat=51.53609&lon=-128.39996&zoom=9&type=hyb&units=metric&rad=1&rad.num=1&rad.spd=25&rad.opa=70&rad.stm=0&rad.type=N0R&rad.smo=1&rad.mrg=0&wxsn=1&wxsn.mode=tw&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0>View BUOY 46204 45 miles west from Duncanby(Goose Bay)</a></li>
               	</ul>
               </div>
             </div>
@@ -229,20 +242,19 @@ get_header(); ?>
               <div class="col-xs-12 about-title">
                 USEFUL LINKS
               </div>
-              <div class="col-md-12 col-no-margin travel-text"> Fishing in Canada</div>
-              <div class="col-md-12  rate-text">Information on Fishing Lodges in Canada</div>
-              <div class="col-md-12  travel-text">Fishing Canada Links Directory</div>
-              <div class="col-md-12 col-no-margin travel-text"> Around the World Travel Agency</div>
-              <div class="col-md-12  rate-text">Information for coordinating flights nd hotels to and from Vancouver and your residence</div>
+              <div class="col-md-12 col-no-margin travel-text"><a class="travel-text" href="http://www.lodgescanada.ca"> Fishing in Canada</a></div>
+              <div class="col-md-12  rate-text"><a class="rate-text"href="http://www.lodgescanada.ca ">Information on Fishing Lodges in Canada</a></div>
+              <div class="col-md-12  travel-text"><a class="travel-text" href="http://www.fishingcanada.com">Fishing Canada Links Directory</a></div>
+              <div class="col-md-12 col-no-margin travel-text"><a class="travel-text" href="http://www.aroundtheworldtravel.ca">Around the World Travel Agency</a></div>
+              <div class="col-md-12  rate-text">Information for coordinating flights and hotels to and from Vancouver and your residence</div>
     					<div class="col-md-12">
               	<ul class="list-style travel-text col-md-12">
-              		<li>Up Inlet tides</li>
-              		<li>Mouth of inlet tides</li>
-              		<li>Sport Fishing Institute</li>
-              		<li>Sport Fishing Advisory Board</li>
+              		<li><a href="http://tides.mobilegeographics.com/locations/6817.html" class="travel-text">Up Inlet tides</a></li>
+              		<li><a href="http://tides.mobilegeographics.com/locations/1769.html" class="travel-text">Mouth of inlet tides</li>
+              		<li><a href="http://www.sportfishing.bc.ca/sfibc/membership.html" class="travel-text">Sport Fishing Institute</li>
+              		<li><a href="http://www.pac.dfo-mpo.gc.ca/index-eng.html" class="travel-text">Sport Fishing Advisory Board</li>
               	</ul>
               </div>          
-   	
             </div>
           </div>
           

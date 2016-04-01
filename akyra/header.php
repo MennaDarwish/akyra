@@ -19,17 +19,17 @@
                 <div class="col-md-6 col-xs-6 col-no-margin">
                     <div class="col-md-10 col-md-offset-2 col-xs-12 col-no-margin">
                         
-                        <span><i class="blue-icon fa fa-facebook"></i></span>
+                        <span><a href="https://www.facebook.com/Duncanby-Lodge-323542898711/?fref=ts"><i class="blue-icon fa fa-facebook"></i></a></span>
                         <span><i class="white-icon fa fa-envelope-o"></i></span>
                         <span class="header-email">
-                            admin@duncanby.com</span>
+                            <a class="anchor-style" href="mailto:admin@duncanby.com">admin@duncanby.com</a></span>
                     </div>
                     
                 </div>
                 <div class="col-md-6 col-xs-6 col-no-margin">
                     <div class="col-md-5 col-md-offset-7 col-xs-12 col-no-margin">
                     <i class="white-icon fa fa-phone"></i>
-                    <span class="header-email">Booking: 1.877.846.6548</span></div>
+                    <span class="header-email"><a class="anchor-style" href="tel:+1.877.846.6548">Booking: +1.877.846.6548</a></span></div>
                 </div>
 </div>
   <!-- Navigation -->

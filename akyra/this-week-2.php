@@ -45,7 +45,7 @@ get_header(); ?>
 				<div class="col-md-4"><img src="<?php echo get_template_directory_uri(); echo '/img/Layer 43.png';?>"></div>
 				<div class="col-md-8 col-no-margin"><span class="event-title">JIM HUGHSON &amp; KID SPORT</span><br>
 						<span class="about-text">"Fishin' for KidSport" July9-12-2016</span><br>
-						<p class="about-text">There is a wonderful simplicty to the growing organization KIDSPORT. Through the work of voluneers
+						<p class="about-text">There is a wonderful simplicty to the growing organization KIDSPORT. Through the work of volunteers
 						and without costly administrations it simple raises money that grants registeration fee so needy kids
 						can play sports. So when you make a donation you feel sure your money is getting to the kids
 						<br><br>
@@ -70,7 +70,7 @@ get_header(); ?>
 			</div>
 			<div class="col-xs-12">
 				<div class="col-md-4"><img src="<?php echo get_template_directory_uri(); echo '/img/Layer 44.png';?>"></div>
-				<div class="col-md-8 col-no-margin"><span class="event-title">RICK HANSON FOUNDATION</span><br>
+				<div class="col-md-8 col-no-margin"><span class="event-title">RICK HANSEN FOUNDATION</span><br>
 						<p class="about-text"><br>
 						Spend time with the Man in Motion, Rick Hanses: benefiting Salmon Enhancement in Rivers Inlet
 						between June 11 to June 14, 2016. Since childhood, Rick Hanses has had a strong passion for the
